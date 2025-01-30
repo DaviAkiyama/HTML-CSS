@@ -1,0 +1,43 @@
+
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'cursiva';
+    src: url(letters_for_learners/Letters\ for\ Learners.ttf) format(ttf);
+}
+*{
+    font-family: cursiva;
+}
+main {
+    width: 300px; /* Define a largura do seu bloquinho */
+    padding: 20px; /* Espaçamento interno */
+    background-color: rgb(228, 228, 228);
+    border-radius: 20px;
+    box-shadow: 8px 8px 10px rgb(134, 133, 133);
+}
+
+body {
+background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Faz a altura ocupar toda aaltura da tela */
+    margin: 0; /* Remove a margem padrão do body */
+}
+
+h2, h3, p, a {
+    color: black;
+}
+h1 {
+    display: flex; /* Corrigido: Use "flex" e não "flexbox" */
+    flex-direction: column; /* Alinha os itens na vertical */
+    justify-content: flex-start; /* Alinha ao topo */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    margin-bottom: 20px;
+    gap: 20px; /* Adiciona um espaço entre os elementos */
+    background-color: rgb(228, 228, 228);
+    color: black;
+    text-align: center;
+    padding: 7px;
+    border-radius: 50px;
+}

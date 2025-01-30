@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(0, 106, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: linear-gradient(to top, rgb(0, 0, 255), rgb(0, 64, 255),rgb(0, 81, 255)) ;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+header h1{
+    text-align: center;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(0, 150, 192);
+    border-radius: 30px;
+    padding: 5px;
+    margin: 6px;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: auto;
+    margin-bottom: 10px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 4%;
+    width: 70%;
+    height: 80vh;
+}
+main h2{
+    text-align: center;
+    margin:auto;
+    background-image: linear-gradient(to right, rgba(0, 255, 255, 0.58),rgba(0, 255, 255, 0.274),rgba(0, 255, 255, 0.096));
+    padding: 30px auto;
+    width: 54%;
+    border-radius: 10px;
+}
+main p{
+    text-indent: 25px;
+    text-align: justify;
+}
+footer{
+    background-color: rgb(0, 0, 152);
+    color: white;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+#picture {
+    border-radius: 10px;
+    width: 50%; /* Faz a imagem ocupar todo o espaço do `<picture>` */
+    display: block;
+    outline: 5px solid rgb(0, 21, 255);
+    margin: auto;
+    max-width: 250px;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+

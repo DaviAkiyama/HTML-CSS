@@ -1,0 +1,19 @@
+h1{
+    background-color: aqua;
+    height: auto;
+    width: auto;
+    border-style: solid ;
+    border-color: black;
+    border-width: 5px;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a{
+    border-width: 2px;
+    border-style: solid;
+    border-color: red
+}

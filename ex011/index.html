@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>tente abrir esse site em vários dispositivos diferentes ou aumente e diminua o tamanho da tela</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-P.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-M.png" type="image/png">
+        <img src="imagens/foto-G.png" alt="imagem flexivel">
+    </picture>
+
+    <h2>Reproduzir Àudio</h2>
+    <p>som de risada</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/3-155949.mp3" type="audio/mpeg">
+        <source src="midia/3-155949.ogg" type="audio/ogg">
+        <source src="midia/3-155949.wav" type="audio/wav">
+        <p>infelismente seu navegador não consegue abrir o áudio. <a href="midia/3-155949.mp3">Clique aquí para fazer o dawload do arquivo MP3</a></p>
+    </audio>
+</body>
+</html>

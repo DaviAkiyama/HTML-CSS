@@ -1,0 +1,13 @@
+boody{
+    background-color: blueviolet;
+}
+div{
+    background-color: aliceblue;
+    border: 1px  solid black;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+div:hover{
+    background-color: red;
+}
