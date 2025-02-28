@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 5</title>
+    <style>
+        th,td{
+            outline: solid black 1px;
+            border-collapse: collapse;
+        }
+        col.cnome{
+            background-color: aqua;
+        }
+        col.cgenero{
+            background-color: rgb(255, 255, 2);
+        }
+        col.cIeF{
+            background-color: lightsalmon;
+        }
+        caption{
+            outline: solid black 1px;
+            padding: 2px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgenero">
+            <col class="cIeF" span="2">
+        </colgroup>
+        <caption>Formados</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Genero</th>
+            <th>Idade</th>
+            <th>Formação</th>
+        </tr>
+        <tr>
+            <td>Eduardo</td>
+            <td>masculino</td>
+            <td>22</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>feminino</td>
+            <td>23</td>
+            <td>Engenharia de economia</td>
+        </tr>
+        <tr>
+            <td>Isabela</td>
+            <td>feminino</td>
+            <td>24</td>
+            <td>psicóloga</td>
+        </tr>
+        <tr><td>Fernando</td>
+            <td>masculino</td>
+            <td>21</td>
+            <td>Médico</td>
+        </tr>
+        <tr>
+            <td>Rafael</td>
+            <td>masculino</td>
+            <td>25</td>
+            <td>Advogado</td>
+        </tr>
+    </table>
+</body>
+</html>
